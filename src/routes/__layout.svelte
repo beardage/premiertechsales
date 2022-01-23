@@ -1,6 +1,10 @@
 <script>
 	import '../styles/tailwind-output.css';
+	import Header from '$lib/Header/index.svelte';
 </script>
 
-<!-- Try some classes here -->
-<h1 class="uppercase text-indigo-500">Hello People of Earth</h1>
+<Header />
+
+<main>
+	<slot />
+</main>
