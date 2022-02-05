@@ -22,14 +22,11 @@
 		</div>
 		<div class="uppercase leading-6">
 			<p class="text-secondary-800 font-semibold">
-				test address<br />
-				1234 N. test address drive<br />
-				tucson, arizona 12345<br />
-				p:
+				office:
 				<a class="text-secondary-800 hover:text-secondary-600" href="tel:123.123.1234"
 					>123.123.1234</a
 				><br />
-				f:
+				fax:
 				<a class="text-secondary-800 hover:text-secondary-600" href="fax:321.321.4321"
 					>321.321.4321</a
 				>
@@ -37,8 +34,9 @@
 		</div>
 		<div />
 		<div class="uppercase leading-6">
-			<a class="text-secondary-800 hover:text-secondary-600 font-semibold block mb-1" href="#"
-				>Linkedin</a
+			<a
+				class="text-secondary-800 hover:text-secondary-600 font-semibold block mb-1"
+				href="https://www.linkedin.com/company/premier-technical-sales/">Linkedin</a
 			>
 			<br />
 			<p class="text-secondary-800">©2022 Premier Technical Sales</p>
