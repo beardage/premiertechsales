@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<h1 class="text-secondary-800 text-center text-4xl font-serif my-16">
+<h1 class="text-secondary-800 text-center text-4xl font-headline my-16">
 	About Premier Technical Sales
 </h1>
 <p>

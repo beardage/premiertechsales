@@ -3,7 +3,7 @@
 	import { compute_slots } from 'svelte/internal';
 </script>
 
-<h1 class="text-secondary-800 text-center text-4xl font-serif my-16">Contact</h1>
+<h1 class="text-secondary-800 text-center text-4xl font-headline my-16">Contact</h1>
 <div class="grid md:grid-cols-2 gap-8 mt-16">
 	<div class="order-2 md:order-1 my-4">
 		<p class="mb-4">

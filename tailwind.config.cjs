@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'serif': ['serif'],
-        'sans': ['Open Sans', 'sans-serif']
+        'headline': ['Roboto Condensed', 'sans-serif'],
+        'body': ['Cabin', 'sans-serif']
       }
     },
   },
