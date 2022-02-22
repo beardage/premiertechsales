@@ -1,6 +1,6 @@
 <footer class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
 	<div
-		class="container grid grid-cols-2 md:grid-cols-4 gap-4 text-sm pt-8 pb-8 border-t border-primary-900"
+		class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm pt-8 pb-8 border-t border-primary-900"
 	>
 		<div class="uppercase leading-6">
 			<a
