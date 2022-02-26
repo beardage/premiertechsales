@@ -33,8 +33,6 @@
 				type="text"
 				placeholder="Jane"
 			/>
-
-			<p class="text-red-500 text-xs italic">Please fill out this field.</p>
 		</div>
 
 		<div class="w-full md:w-1/2 px-3">
@@ -70,8 +68,6 @@
 				name="email"
 				type="email"
 			/>
-
-			<p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>
 		</div>
 	</div>
 
@@ -89,10 +85,6 @@
 				id="message"
 				name="message"
 			/>
-
-			<p class="text-gray-600 text-xs italic">
-				Re-size can be disabled by set by resize-none / resize-y / resize-x / resize
-			</p>
 		</div>
 	</div>
 
