@@ -10,7 +10,7 @@ module.exports = {
   },
   mode: 'jit',
   plugins: [],
-  purge: [
+  content: [
     "./src/**/*.svelte",
     "/.src/**/*.html"
   ],
