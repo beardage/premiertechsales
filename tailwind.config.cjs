@@ -10,7 +10,9 @@ module.exports = {
       green: colors.teal,
       cyan: colors.cyan,
       primary: colors.slate,
-      secondary: colors.cyan 
+      secondary: colors.cyan,
+      light: colors.white,
+      dark: colors.black,
     },
     extend: {
       fontFamily: {
