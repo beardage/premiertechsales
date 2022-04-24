@@ -3,7 +3,7 @@
 </script>
 
 <Slider />
-<h1 class="text-3xl mt-8 mb-4 bg-primary-600 text-gray-100 inline-block">
+<h1 class="text-3xl mt-8 mb-4 inline-block">
 	Premier Technical Sales
 </h1>
 <p>
