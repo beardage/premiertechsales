@@ -26,7 +26,7 @@
 		</picture>
 	</div>
 	<div class="md:w-3/5 p-8 text-left">
-		<h2 class="font-bold text-xl mb-4">Jeff Beard, <em>CEO</em></h2>
+		<h2 class="text-2xl font-headline mb-4">Jeff Beard, <em>CEO</em></h2>
 		<p>
 			I started my career in RF/Microwave in 1984, while working with Integrated Microwave
 			(IMC) as a Engineer Technician. After three years, I moved into Sales Manager roll (with
@@ -43,7 +43,7 @@
 	class="container mx-auto mt-8 md:mt-16 px-8 md:px-16 py-8 md:flex md:justify-center md:items-center"
 >
 	<div class="md:w-3/5 p-8 text-left">
-		<h2 class="font-bold text-xl mb-4">Amanda Rockrich</h2>
+		<h2 class="text-2xl font-headline mb-4">Amanda Rockrich</h2>
 		<p>
 			I have spent 9 years doing customer service related work in a broad capacity. I started
 			going to school for Nursing, then quickly realized that’s not what I wanted to pursue. I
