@@ -10,28 +10,28 @@
 	<a
 		sveltekit:prefetch
 		href="/about/"
-		class="border-transparent text-secondary-800 hover:text-secondary-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
+		class="border-transparent text-light hover:text-secondary-50 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
 	>
 		About
 	</a>
 	<a
 		sveltekit:prefetch
 		href="/line-card/"
-		class="border-transparent text-secondary-800 hover:text-secondary-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
+		class="border-transparent text-light hover:text-secondary-50 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
 	>
 		Line Card
 	</a>
 	<a
 		sveltekit:prefetch
 		href="/press-releases/"
-		class="border-transparent text-secondary-800 hover:text-secondary-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
+		class="border-transparent text-light hover:text-secondary-50 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
 	>
 		Press Releases
 	</a>
 	<a
 		sveltekit:prefetch
 		href="/contact/"
-		class="border-transparent text-secondary-800 hover:text-secondary-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
+		class="border-transparent text-light hover:text-secondary-50 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-semibold"
 	>
 		Contact
 	</a>

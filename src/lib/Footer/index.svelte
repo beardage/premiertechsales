@@ -1,33 +1,35 @@
-<footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+<footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 bg-primary-800 shadow-xl rounded-sm">
 	<div
-		class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm pt-8 pb-8 border-t border-primary-900"
+		class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm pt-8 pb-8"
 	>
 		<div class="uppercase leading-6">
 			<a
-				class="text-secondary-800 hover:text-secondary-600 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-semibold block mb-1"
 				href="/about/">About</a
 			>
 			<a
-				class="text-secondary-800 hover:text-secondary-600 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-semibold block mb-1"
 				href="/line-card/">Line Card</a
 			>
 			<a
-				class="text-secondary-800 hover:text-secondary-600 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-semibold block mb-1"
 				href="/press-releases/">Press Releases</a
 			>
 			<a
-				class="text-secondary-800 hover:text-secondary-600 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-semibold block mb-1"
 				href="/contact/">Contact</a
 			>
 		</div>
 		<div class="uppercase leading-6">
-			<p class="text-secondary-800 font-semibold">
+			<p class="text-light font-normal mb-1">
 				office:
-				<a class="text-secondary-800 hover:text-secondary-600" href="tel:123.123.1234"
+				<a class="font-medium ml-2 text-light hover:text-secondary-50" href="tel:123.123.1234"
 					>123.123.1234</a
-				><br />
+				>
+				</p>
+				<p class="text-light font-normal mb-1">
 				fax:
-				<a class="text-secondary-800 hover:text-secondary-600" href="fax:321.321.4321"
+				<a class="font-medium ml-2 text-light hover:text-secondary-50" href="fax:321.321.4321"
 					>321.321.4321</a
 				>
 			</p>
@@ -35,11 +37,12 @@
 		<div />
 		<div class="uppercase leading-6">
 			<a
-				class="text-secondary-800 hover:text-secondary-600 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-semibold block mb-1"
 				href="https://www.linkedin.com/company/premier-technical-sales/">Linkedin</a
 			>
 			<br />
-			<p class="text-secondary-800">©2022 Premier Technical Sales</p>
+			<br />
+			<p class="text-gray-500">©2022 Premier Technical Sales</p>
 		</div>
 	</div>
 </footer>
