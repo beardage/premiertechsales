@@ -1,4 +1,4 @@
-<footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 bg-primary-800 shadow-xl rounded-sm">
+<footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 bg-primary-800 shadow-2xl rounded-md">
 	<div
 		class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm pt-8 pb-8"
 	>
