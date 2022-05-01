@@ -6,7 +6,7 @@
 	}
 </script>
 
-<div class="hidden flex-grow sm:ml-8 md:flex md:space-x-8 uppercase content-end justify-end">
+<div class="hidden w-auto flex-grow sm:ml-8 md:flex md:space-x-8 uppercase content-end justify-end">
 	<a
 		sveltekit:prefetch
 		href="/about/"
