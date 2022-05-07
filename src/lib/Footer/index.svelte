@@ -13,10 +13,6 @@
 			>
 			<a
 				class="text-light hover:text-secondary-50 font-medium block mb-1"
-				href="/press-releases/">Press Releases</a
-			>
-			<a
-				class="text-light hover:text-secondary-50 font-medium block mb-1"
 				href="/contact/">Contact</a
 			>
 		</div>
