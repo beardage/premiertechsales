@@ -2,6 +2,10 @@
 	import Slider from '$lib/Slider/index.svelte';
 </script>
 
+<svelte:head>
+	<title>Premier Technical Sales - RF / Microwave and Digital Sales</title>
+</svelte:head>
+
 <Slider />
 <h1 class="text-3xl mt-8 mb-4 inline-block">
 	Premier Technical Sales

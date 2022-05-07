@@ -1,6 +1,11 @@
 <h1 class="text-secondary-800 text-center text-4xl font-serif my-16">Line Card</h1>
 
+<svelte:head>
+	<title>Premier Technical Sales - Line Card</title>
+</svelte:head>
+
 <div class="grid grid-cols-3 gap-4 text-center">
+
 	<figure class="bg-light transition-shadow shadow hover:shadow-lg p-4">
 		<a class="inline-block text-center " href="https://www.aethercomm.com/" target="_blank">
 			<picture>

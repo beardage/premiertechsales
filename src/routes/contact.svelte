@@ -2,7 +2,12 @@
 	import Contact from "$lib/Forms/Contact.svelte";
 </script>
 
+<svelte:head>
+	<title>Premier Technical Sales - Contact</title>
+</svelte:head>
+
 <h1 class="text-secondary-800 text-center text-4xl font-headline my-16">Contact</h1>
+
 <div class="grid md:grid-cols-2 gap-8 mt-16">
 	<div class="order-1 md:order-2 mb-4">
 		<h4 class="font-headline text-2xl">Office</h4>
