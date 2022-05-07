@@ -4,19 +4,19 @@
 	>
 		<div class="uppercase leading-6">
 			<a
-				class="text-light hover:text-secondary-50 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-medium block mb-1"
 				href="/about/">About</a
 			>
 			<a
-				class="text-light hover:text-secondary-50 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-medium block mb-1"
 				href="/line-card/">Line Card</a
 			>
 			<a
-				class="text-light hover:text-secondary-50 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-medium block mb-1"
 				href="/press-releases/">Press Releases</a
 			>
 			<a
-				class="text-light hover:text-secondary-50 font-semibold block mb-1"
+				class="text-light hover:text-secondary-50 font-medium block mb-1"
 				href="/contact/">Contact</a
 			>
 		</div>
