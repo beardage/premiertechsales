@@ -17,7 +17,7 @@
 		<img
 			class="object-cover"
 			alt="military"
-			src="http://premiertechsales.com/wp-content/uploads/2015/12/pts-military-2-0x0.jpg"
+			src="slider/pts-military-2-0x0.jpg"
 		/>
 		<div class="slide-content absolute bottom-0 left-0 p-4 bg-primary-800 text-gray-100">
 			<h2 class="text-2xl mb-2">Military</h2>
@@ -27,7 +27,7 @@
 	<SwiperSlide>
 		<img
 			alt="commercial"
-			src="http://premiertechsales.com/wp-content/uploads/2015/12/pts-commercial-avionics-0x0.jpg"
+			src="slider/pts-commercial-avionics-0x0.jpg"
 		/>
 		<div class="slide-content absolute bottom-0 left-0 p-4 bg-primary-800 text-gray-100">
 			<h2 class="text-2xl mb-2">Commercial</h2>
@@ -37,7 +37,7 @@
 	<SwiperSlide>
 		<img
 			alt="space"
-			src="http://premiertechsales.com/wp-content/uploads/2015/12/pts-space-0x0.jpg"
+			src="slider/pts-space-0x0.jpg"
 		/>
 		<div class="slide-content absolute bottom-0 left-0 p-4 bg-primary-800 text-gray-100">
 			<h2 class="text-2xl mb-2">Space</h2>

@@ -37,7 +37,6 @@
 				href="https://www.linkedin.com/company/premier-technical-sales/">Linkedin</a
 			>
 			<br />
-			<br />
 			<p class="text-gray-500">©2022 Premier Technical Sales</p>
 		</div>
 	</div>
