@@ -3,6 +3,7 @@
 
 <svelte:head>
 	<title>Premier Technical Sales - About</title>
+	<meta name="description" content="Premier Technical Sales is one of the leading technical Field Representatives in the South West.">
 </svelte:head>
 
 <h1 class="text-secondary-800 text-center text-4xl font-headline my-16">

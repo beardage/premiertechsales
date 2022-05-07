@@ -2,6 +2,8 @@
 
 <svelte:head>
 	<title>Premier Technical Sales - Line Card</title>
+	<meta name="description" content="Premier Technical Sales Line Card, a list of companies we represent">
+
 </svelte:head>
 
 <div class="grid grid-cols-3 gap-4 text-center">

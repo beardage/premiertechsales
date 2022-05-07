@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<title>Premier Technical Sales - Contact</title>
+	<meta name="description" content="Premier Technical Sales contact information">
 </svelte:head>
 
 <h1 class="text-secondary-800 text-center text-4xl font-headline my-16">Contact</h1>

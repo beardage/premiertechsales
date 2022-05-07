@@ -4,6 +4,8 @@
 
 <svelte:head>
 	<title>Premier Technical Sales - RF / Microwave and Digital Sales</title>
+	<meta name="description" content="Premier Tech Sales is a complete solution to your Field Representative needs in the states of
+	Arizona and New Mexico.">
 </svelte:head>
 
 <Slider />
