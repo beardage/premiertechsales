@@ -14,24 +14,22 @@
 	effect="fade"
 >
 	<SwiperSlide>
-		<img
-			class="object-cover"
-			alt="military"
-			src="slider/pts-military-2-0x0.jpg"
-		/>
 		<div class="slide-content absolute bottom-0 left-0 p-4 bg-primary-800 text-gray-100">
 			<h2 class="text-2xl mb-2">Military</h2>
 			<p>A wide range of products supporting our troops from Communications to Defense.</p>
 		</div>
 	</SwiperSlide>
 	<SwiperSlide>
+		<div class="min-h-[500px] w-full relative">
 		<img
 			alt="commercial"
-			src="slider/pts-commercial-avionics-0x0.jpg"
+			class="absolute right-12"
+			src="slider/plane.svg"
 		/>
-		<div class="slide-content absolute bottom-0 left-0 p-4 bg-primary-800 text-gray-100">
-			<h2 class="text-2xl mb-2">Commercial</h2>
-			<p>Products ranging from reference designs in the consumer market, through commercial avionics.</p>
+		<div class="slide-content absolute bottom-8 left-4 p-4">
+			<h2 class="text-4xl mb-2 bg-primary-800 text-gray-50 inline-block">Commercial</h2>
+			<p class="bg-primary-800 text-gray-50">Products ranging from reference designs in the consumer market, through commercial avionics.</p>
+		</div>
 		</div>
 	</SwiperSlide>
 	<SwiperSlide>
