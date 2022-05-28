@@ -1,13 +1,13 @@
-<h1 class="text-secondary-800 text-center text-4xl font-serif my-16">Line Card</h1>
-
 <svelte:head>
 	<title>Premier Technical Sales - Line Card</title>
-	<meta name="description" content="Premier Technical Sales Line Card, a list of companies we represent">
-
+	<meta
+		name="description"
+		content="Premier Technical Sales Line Card, a list of companies we represent"
+	/>
 </svelte:head>
 
+<h1 class="text-secondary-800 text-center text-4xl font-headline my-16">Line Card</h1>
 <div class="grid grid-cols-3 gap-4 text-center">
-
 	<figure class="bg-light transition-shadow shadow hover:shadow-lg p-4">
 		<a class="inline-block text-center " href="https://www.aethercomm.com/" target="_blank">
 			<picture>
@@ -49,7 +49,11 @@
 		<figcaption>L3Harris</figcaption>
 	</figure>
 	<figure class="flex flex-col bg-light transition-shadow shadow hover:shadow-lg p-4">
-		<a class="inline-block text-center flex-grow" href="https://www.markimicrowave.com/" target="_blank">
+		<a
+			class="inline-block text-center flex-grow"
+			href="https://www.markimicrowave.com/"
+			target="_blank"
+		>
 			<picture>
 				<img src="/line-card/marki-microwave.jpg" alt="Marki Microwave logo" />
 			</picture>
@@ -89,7 +93,11 @@
 		<figcaption>Times Microwave Systems</figcaption>
 	</figure>
 	<figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
-		<a class="inline-block text-center" href="https://www.skyworksinc.com/en/products/technical-ceramics" target="_blank">
+		<a
+			class="inline-block text-center"
+			href="https://www.skyworksinc.com/en/products/technical-ceramics"
+			target="_blank"
+		>
 			<picture>
 				<img src="/line-card/trans-tech.png" alt="trans-tech logo" />
 			</picture>
