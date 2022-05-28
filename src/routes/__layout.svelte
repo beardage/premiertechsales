@@ -16,9 +16,13 @@
 
 <main>
 	<PageTransition {url}>
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+		{#if url.pathname === '/'}
 			<slot />
-		</div>
+		{:else}
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-44">
+				<slot />
+			</div>
+		{/if}
 	</PageTransition>
 </main>
 
