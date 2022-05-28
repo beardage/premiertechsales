@@ -6,7 +6,11 @@
 	/>
 </svelte:head>
 
-<h1 class="text-secondary-800 text-center text-4xl font-headline my-16">Line Card</h1>
+<h1
+	class="text-secondary-800 text-center text-2xl font-headline uppercase font-semibold tracking-[.2em] my-16"
+>
+	Line Card
+</h1>
 <div class="grid grid-cols-3 gap-4 text-center">
 	<figure class="bg-light transition-shadow shadow hover:shadow-lg p-4">
 		<a class="inline-block text-center " href="https://www.aethercomm.com/" target="_blank">
