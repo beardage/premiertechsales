@@ -11,7 +11,7 @@
 >
 	Line Card
 </h1>
-<div class="grid grid-cols-3 gap-4 text-center">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
 	<figure class="bg-light transition-shadow shadow hover:shadow-lg p-4">
 		<a class="inline-block text-center " href="https://www.aethercomm.com/" target="_blank">
 			<picture>
