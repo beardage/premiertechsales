@@ -11,7 +11,7 @@
 	/>
 </svelte:head>
 
-<div class="w-full mt-20 md:mt-0">
+<div class="w-full mt-16 md:mt-0">
 	<Slider />
 </div>
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-8">
