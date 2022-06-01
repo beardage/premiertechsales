@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	let mobileNavOpen = false;
-	function toggleMobileNav() {
-		mobileNavOpen = !mobileNavOpen;
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+	function openNavigation() {
+		dispatch('mobileNavToggle');
 	}
 </script>
 
@@ -35,7 +37,7 @@
 	class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-light hover:text-secondary-50 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-700"
 	aria-controls="mobile-menu"
 	aria-expanded="false"
-	on:click={toggleMobileNav}
+	on:click={openNavigation}
 >
 	<span class="sr-only">Open main menu</span>
 	<svg

@@ -4,15 +4,24 @@
 	});
 </script>
 
-<script>
+<script lang="ts">
 	import '../styles/tailwind-output.css';
 	import Header from '$lib/Header/index.svelte';
 	import Footer from '$lib/Footer/index.svelte';
 	import PageTransition from '$lib/Transitions/PageTransition.svelte';
+	import MobileNavigation from '$lib/Header/MobileNavigation.svelte';
 	export let url;
+
+	let mobileNavOpen = false;
+	function toggleMobileNav() {
+		mobileNavOpen = !mobileNavOpen;
+		console.log(mobileNavOpen);
+	}
 </script>
 
-<Header />
+<MobileNavigation on:mobileNavToggle={toggleMobileNav} open={mobileNavOpen} />
+
+<Header on:mobileNavToggle={toggleMobileNav} />
 
 <main>
 	<PageTransition {url}>
