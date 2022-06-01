@@ -15,7 +15,7 @@
 	let mobileNavOpen = false;
 	function toggleMobileNav() {
 		mobileNavOpen = !mobileNavOpen;
-		console.log(mobileNavOpen);
+		document.body.classList.toggle('overflow-y-hidden');
 	}
 </script>
 
