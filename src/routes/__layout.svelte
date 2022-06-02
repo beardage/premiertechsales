@@ -19,7 +19,6 @@
 	}
 </script>
 
-<MobileNavigation on:mobileNavToggle={toggleMobileNav} open={mobileNavOpen} />
 
 <Header on:mobileNavToggle={toggleMobileNav} />
 
@@ -36,3 +35,5 @@
 </main>
 
 <Footer />
+
+<MobileNavigation on:mobileNavToggle={toggleMobileNav} open={mobileNavOpen} />
