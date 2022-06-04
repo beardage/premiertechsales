@@ -7,8 +7,8 @@
 	import 'swiper/css/navigation';
 </script>
 
-<Swiper navigation slidesPerView={1} modules={[EffectFade, Navigation, Pagination]} effect="fade">
-	<SwiperSlide>
+<Swiper class="max-h-screen relative"  navigation slidesPerView={1} modules={[EffectFade, Navigation, Pagination]} effect="fade">
+	<SwiperSlide class="max-h-screen relative">
 		<img alt="military" src="slider/pts-apache-2k.jpg" />
 		<div
 			class="slide-content absolute bottom-8 left-0 right-0 w-full max-w-7xl mx-auto px-12 lg:px-8 "
@@ -22,7 +22,7 @@
 			</p>
 		</div>
 	</SwiperSlide>
-	<SwiperSlide>
+	<SwiperSlide class="max-h-screen relative">
 		<img alt="commercial" src="slider/pts-plane-2k.jpg" />
 		<div
 			class="slide-content absolute bottom-8 left-0 right-0 w-full max-w-7xl mx-auto px-12 lg:px-8 "
@@ -37,7 +37,7 @@
 			</p>
 		</div>
 	</SwiperSlide>
-	<SwiperSlide>
+	<SwiperSlide class="max-h-screen relative">
 		<img alt="space" src="slider/pts-satellite-2k.jpg" />
 		<div
 			class="slide-content absolute bottom-8 left-0 right-0 w-full max-w-7xl mx-auto px-12 lg:px-8"
@@ -52,7 +52,7 @@
 			</p>
 		</div>
 	</SwiperSlide>
-	<SwiperSlide>
+	<SwiperSlide class="max-h-screen relative">
 		<img alt="communications" src="slider/pts-antennae-2k.jpg" />
 		<div
 			class="slide-content absolute bottom-8 left-0 right-0 w-full max-w-7xl mx-auto px-12 lg:px-8"
