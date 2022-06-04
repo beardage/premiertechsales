@@ -54,7 +54,7 @@
 	</figure>
 	<figure class="flex flex-col bg-light transition-shadow shadow hover:shadow-lg p-4">
 		<a
-			class="inline-block text-center flex-grow"
+			class="text-center flex-grow flex items-center"
 			href="https://www.markimicrowave.com/"
 			target="_blank"
 		>
