@@ -26,10 +26,37 @@
 				<img class="w-5" src="times-solid.svg" alt="close menu"/>
 			</button>
 			<div class="border-b">
-				<img class="w-3/5 m-auto py-4" src="pts-logo-dark.svg" alt="Premier Technical Sales Dark Logo"/>
+				<img class="w-3/5 m-auto py-6" src="pts-logo-dark.svg" alt="Premier Technical Sales Dark Logo"/>
 			</div>
-
-
+			<ul class="text-center">
+				<li>
+					<a
+						sveltekit:prefetch
+						href="/about/"
+						class="block uppercase text-primary-800 hover:bg-secondary-50 p-4 border-b text-sm font-semibold tracking-widest"
+					>
+						About
+					</a>
+				</li>
+				<li>
+					<a
+						sveltekit:prefetch
+						href="/line-card/"
+						class="block uppercase text-primary-800 hover:bg-secondary-50 p-4 border-b text-sm font-semibold tracking-widest"
+					>
+						Line Card
+					</a>
+				</li>
+				<li>
+					<a
+						sveltekit:prefetch
+						href="/contact/"
+						class="block uppercase text-primary-800 hover:bg-secondary-50 p-4 border-b text-sm font-semibold tracking-widest"
+					>
+						Contact
+					</a>
+				</li>
+			</ul>
 		</div>
 	</Transition>
 </div>
