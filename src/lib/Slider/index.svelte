@@ -52,4 +52,18 @@
 			</p>
 		</div>
 	</SwiperSlide>
+	<SwiperSlide>
+		<img alt="communications" src="slider/pts-antennae-2k.jpg" />
+		<div
+			class="slide-content absolute bottom-8 left-0 right-0 w-full max-w-7xl mx-auto px-12 lg:px-8"
+		>
+			<h2 class="text-xl md:text-4xl mb-2 bg-primary-800 text-gray-50 inline-block p-2">
+				Communications
+			</h2>
+			<br />
+			<p class="text-xs md:text-base inline-block bg-primary-800 text-gray-50 p-2">
+				We work with engineers to bridge customers to services, no matter the distance. 
+			</p>
+		</div>
+	</SwiperSlide>
 </Swiper>
