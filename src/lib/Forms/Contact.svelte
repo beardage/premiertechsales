@@ -104,7 +104,7 @@
 			/>
 		</div>
 	</div>
-	<input type="hidden" name="contact-form" value="website_contact_form" />
+	<input type="hidden" name="form-name" value="contact_form" />
 	<input class="hidden" type="text" name="bot-field" />
 	<div class="md:flex md:items-center">
 		<div class="md:w-1/3">
