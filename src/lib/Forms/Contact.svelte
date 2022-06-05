@@ -53,6 +53,7 @@
 	name="contact-form"
 	id="contact-form"
 	class="w-full mt-10"
+	action="/thank-you"
 	on:submit|preventDefault={handleSubmit}
 >
 	<input type="hidden" name="form-name" value="contact-form" />
