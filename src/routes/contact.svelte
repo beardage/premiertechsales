@@ -18,14 +18,14 @@
 
 <div class="grid md:grid-cols-2 gap-8 mt-16">
 	<div class="order-1 md:order-2 mb-4">
-		<h4 class="font-headline text-2xl">Office</h4>
+		<h4 class="font-headline text-2xl mb-2">Office</h4>
 		<p class="mb-6">
 			Office Phone: <a href="tel:480.772.5779">480.772.5779</a><br />
 			Office Fax: <a href="fax:480.926.7679">480.926.7679</a><br />
 			Office Email:
-			<a href="mailto:emmccullough@premiertechsales.com">emccullough@premiertechsales.com</a>
+			<a href="mailto:arockrich@premiertechsales.com">arockrich@premiertechsales.com</a>
 		</p>
-		<h4 class="font-headline text-2xl">Jeff Beard</h4>
+		<h4 class="font-headline text-2xl mb-2">Jeff Beard</h4>
 		<p>
 			Phone: <a href="tel:602.799.8904">602.799.8904</a>
 			<br />
