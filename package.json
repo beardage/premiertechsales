@@ -40,7 +40,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"dom7": "^4.0.4",
 		"postcss": "^8.4.14",
+		"ssr-window": "^4.0.2",
 		"swiper": "^7.4.1"
 	}
 }

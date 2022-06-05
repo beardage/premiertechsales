@@ -3,18 +3,39 @@
 
 	let displaySuccessMessage = false; 
 
-	async function handleSubmit(event: any) {
-		event.preventDefault();
-		let myForm = document.getElementById("contact-form");
-		let formData = new FormData(myForm as HTMLFormElement);
-		fetch("/", {
-			method: "POST",
-			headers: { "Content-Type": "application/x-www-form-urlencoded" },
-			body: new URLSearchParams(formData).toString(),
-		})
-			.then(() => showSuccessMessage())
-			.catch((error) => console.log(error));
-	}
+  const handleSubmit = (e) => {
+    let myForm = document.getElementById("contact-form");
+    let formData = new FormData(myForm);
+    return fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => {
+        console.log("Form successfully submitted");
+        myForm.reset();
+		displaySuccessMessage = true;	
+		setTimeout(() => {
+			displaySuccessMessage = false;
+		}, 5000)
+
+      })
+      .catch((error) => {
+        alert(error);
+      });
+  };
+/* 	async function handleSubmit(event: any) { */
+/* 		event.preventDefault(); */
+/* 		let myForm = document.getElementById("contact-form"); */
+/* 		let formData = new FormData(myForm as HTMLFormElement); */
+/* 		fetch("/", { */
+/* 			method: "POST", */
+/* 			headers: { "Content-Type": "application/x-www-form-urlencoded" }, */
+/* 			body: new URLSearchParams(formData).toString(), */
+/* 		}) */
+/* 			.then(() => showSuccessMessage()) */
+/* 			.catch((error) => console.log(error)); */
+/* 	} */
 
 	function showSuccessMessage () {
 		let form = document.getElementById('contact-form') as HTMLFormElement;
@@ -28,12 +49,11 @@
 
 <form
 	netlify
-	method="POST"
 	netlify-honeypot="bot-field"
 	name="contact-form"
 	id="contact-form"
 	class="w-full mt-10"
-	action="/thank-you"
+	on:submit|preventDefault={handleSubmit}
 >
 	<input type="hidden" name="form-name" value="contact-form" />
 	<div class="flex flex-wrap -mx-3 mb-6">
@@ -110,7 +130,7 @@
 			</label>
 		</div>
 	</div>
-	<input class="hidden" type="text" name="bot-field" />
+	<input class="invisible" type="text" name="bot-field" />
 	<div class="md:flex md:items-center">
 		<div class="md:w-1/3">
 			<button
