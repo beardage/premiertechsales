@@ -2,17 +2,16 @@
 	import { Transition } from "@rgossiaux/svelte-headlessui";
 
 	let displaySuccessMessage = false; 
-
+	document.querySelector("form").addEventListener("submit", handleSubmit);
 	async function handleSubmit(event) {
-		let formInfo = new FormData(event.target);
-		const response = await fetch('/', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/x-www-form-urlencoded'
-			},
-			body: formInfo
+		event.preventDefault();
+		let myForm = document.getElementById("contact-form");
+		let formData = new FormData(myForm as HTMLFormElement);
+		fetch("/", {
+			method: "POST",
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: formData
 		})
-		
 			.then(() => showSuccessMessage())
 			.catch((error) => console.log(error));
 	}
