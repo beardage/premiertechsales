@@ -1,5 +1,5 @@
-import adapter from '@sveltejs/adapter-netlify';
-import preprocess from 'svelte-preprocess';
+import adapter from "@sveltejs/adapter-netlify";
+import preprocess from "svelte-preprocess";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,10 +9,10 @@ const config = {
 		prerender: {
 			crawl: true,
 			enabled: true,
-			onError: 'fail',
-			entries: ['*']
-		}
-	}
+			onError: "fail",
+			entries: ["*"],
+		},
+	},
 };
 
 export default config;

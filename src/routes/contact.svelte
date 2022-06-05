@@ -1,3 +1,6 @@
+<script context="module">
+    export const prerender = true;
+</script>
 <script>
 	import Contact from '$lib/Forms/Contact.svelte';
 </script>
