@@ -2,10 +2,12 @@
 	import { Transition } from "@rgossiaux/svelte-headlessui";
 
 	let displaySuccessMessage = false; 
-	
-	async function handleSubmit(event) {
+
+	async function handleSubmit(event: any) {
+		event.preventDefault();
 		let myForm = document.getElementById("contact-form");
 		let formData = new FormData(myForm as HTMLFormElement);
+		console.log(new URLSearchParams(formData).toString());
 		fetch("/", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -17,7 +19,7 @@
 
 	function showSuccessMessage () {
 		let form = document.getElementById('contact-form') as HTMLFormElement;
-		form.reset();
+		/* form.reset(); */
 		displaySuccessMessage = true;	
 		setTimeout(() => {
 			displaySuccessMessage = false;
@@ -27,13 +29,15 @@
 
 <form
 	data-netlify="true"
+	method="POST"
 	netlify-honeypot="bot-field"
 	name="contact-form"
 	id="contact-form"
 	class="w-full mt-10"
-	action="/thank-you"
+	on:submit={handleSubmit}
 >
 	<div />
+	<input type="hidden" name="form-name" value="contactForm" />
 	<div class="flex flex-wrap -mx-3 mb-6">
 		<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 			<label
@@ -41,15 +45,16 @@
 				for="firstname"
 			>
 				First Name
-			</label>
-
 			<input
-				class="appearance-none block w-full bg-gray-50 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+				class="mt-2 appearance-none block w-full bg-gray-50 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
 				id="firstname"
 				name="firstname"
 				type="text"
 				placeholder="Jane"
 			/>
+			</label>
+
+			
 		</div>
 
 		<div class="w-full md:w-1/2 px-3">
@@ -58,15 +63,16 @@
 				for="lastname"
 			>
 				Last Name
-			</label>
 
 			<input
-				class="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+				class="mt-2 appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
 				id="lastname"
 				name="lastname"
 				type="text"
 				placeholder="Doe"
 			/>
+
+			</label>
 		</div>
 	</div>
 
@@ -77,14 +83,15 @@
 				for="email"
 			>
 				E-mail
-			</label>
 
 			<input
-				class="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+				class="mt-2 appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
 				id="email"
 				name="email"
 				type="email"
 			/>
+
+			</label>
 		</div>
 	</div>
 
@@ -95,16 +102,16 @@
 				for="message"
 			>
 				Message
-			</label>
 
 			<textarea
-				class=" no-resize appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+				class="mt-2 no-resize appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
 				id="message"
 				name="message"
 			/>
+
+			</label>
 		</div>
 	</div>
-	<input type="hidden" name="form-name" value="contact_form" />
 	<input class="hidden" type="text" name="bot-field" />
 	<div class="md:flex md:items-center">
 		<div class="md:w-1/3">
