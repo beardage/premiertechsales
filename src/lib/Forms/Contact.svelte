@@ -2,9 +2,8 @@
 	import { Transition } from "@rgossiaux/svelte-headlessui";
 
 	let displaySuccessMessage = false; 
-	document.querySelector("form").addEventListener("submit", handleSubmit);
+	
 	async function handleSubmit(event) {
-		event.preventDefault();
 		let myForm = document.getElementById("contact-form");
 		let formData = new FormData(myForm as HTMLFormElement);
 		fetch("/", {

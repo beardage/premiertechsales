@@ -32,7 +32,7 @@
 			Email: <a href="mailto:jbeard@premiertechsales.com">jbeard@premiertechsales.com</a>
 		</p>
 	</div>
-	<div class="order-2 md: order-1">
+	<div class="order-2 md:order-1">
 		<h2 class="text-2xl font-headline mb-2">Have an Inquiry?</h2>
 		<p>Send us a message and we'll get back to you as soon as possible</p>
 		<Contact />
