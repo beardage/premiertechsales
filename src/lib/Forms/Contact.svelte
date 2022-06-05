@@ -1,11 +1,9 @@
 <script lang="ts">
+	import { Transition } from "@rgossiaux/svelte-headlessui";
+
+	let displaySuccessMessage = false; 
+
 	async function handleSubmit(event) {
-		console.log(event);
-		console.log(event.target);
-		console.log(event.target.firstname.value);
-		console.log(event.target.lastname.value);
-		console.log(event.target.email.value);
-		console.log(event.target.message.value);
 		let formInfo = new FormData(event.target);
 		const response = await fetch('/', {
 			method: 'POST',
@@ -14,15 +12,26 @@
 			},
 			body: formInfo
 		})
-			.then(() => console.log('form succesfully submitted'))
+		
+			.then(() => showSuccessMessage())
 			.catch((error) => console.log(error));
+	}
+
+	function showSuccessMessage () {
+		let form = document.getElementById('contact-form') as HTMLFormElement;
+		form.reset();
+		displaySuccessMessage = true;	
+		setTimeout(() => {
+			displaySuccessMessage = false;
+		}, 5000)
 	}
 </script>
 
 <form
-	netlify
+	data-netlify="true"
 	netlify-honeypot="bot-field"
 	name="contact-form"
+	id="contact-form"
 	class="w-full mt-10"
 	on:submit|preventDefault={handleSubmit}
 >
@@ -97,7 +106,7 @@
 			/>
 		</div>
 	</div>
-
+	<input type="hidden" name="contact-form" value="website_contact_form" />
 	<input class="hidden" type="text" name="bot-field" />
 	<div class="md:flex md:items-center">
 		<div class="md:w-1/3">
@@ -112,3 +121,16 @@
 		<div class="md:w-2/3" />
 	</div>
 </form>
+
+<Transition 
+		show={displaySuccessMessage}
+		enter="transition-opacity ease-in-out duration-250"
+		enterFrom="opacity-0"
+		enterTo="opacity-100"
+		leave="transition-opacity ease-in-out duration-200"
+		leaveFrom="opacity-0"
+		leaveTo="opacity-100"
+	>
+		<div class="bg-primary-600 p-2 rounded my-4"><p class="text-light">Message was successfully submitted! We will be in touch shortly.</p></div>
+	</Transition>
+
