@@ -6,7 +6,7 @@
 	async function handleSubmit(event) {
 		let myForm = document.getElementById("contact-form");
 		let formData = new FormData(myForm as HTMLFormElement);
-		fetch("/", {
+		fetch("/contact", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
 			body: new URLSearchParams(formData).toString(),
