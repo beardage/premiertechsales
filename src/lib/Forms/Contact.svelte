@@ -7,7 +7,6 @@
 		event.preventDefault();
 		let myForm = document.getElementById("contact-form");
 		let formData = new FormData(myForm as HTMLFormElement);
-		console.log(new URLSearchParams(formData).toString());
 		fetch("/", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -19,7 +18,7 @@
 
 	function showSuccessMessage () {
 		let form = document.getElementById('contact-form') as HTMLFormElement;
-		/* form.reset(); */
+		form.reset();
 		displaySuccessMessage = true;	
 		setTimeout(() => {
 			displaySuccessMessage = false;
