@@ -6,7 +6,7 @@
 	async function handleSubmit(event) {
 		let myForm = document.getElementById("contact-form");
 		let formData = new FormData(myForm as HTMLFormElement);
-		fetch("/contact", {
+		fetch("/", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
 			body: new URLSearchParams(formData).toString(),
@@ -31,7 +31,7 @@
 	name="contact-form"
 	id="contact-form"
 	class="w-full mt-10"
-	on:submit|preventDefault={handleSubmit}
+	action="/thank-you"
 >
 	<div />
 	<div class="flex flex-wrap -mx-3 mb-6">
