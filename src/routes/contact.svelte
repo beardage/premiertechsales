@@ -20,8 +20,8 @@
 	<div class="order-1 md:order-2 mb-4">
 		<h4 class="font-headline text-2xl">Office</h4>
 		<p class="mb-6">
-			Office Phone: <a href="tel:123.123.1234">123.123.1234</a><br />
-			Office Fax: <a href="fax:321.321.4321">321.321.4321</a><br />
+			Office Phone: <a href="tel:480.772.5779">480.772.5779</a><br />
+			Office Fax: <a href="fax:480.926.7679">480.926.7679</a><br />
 			Office Email:
 			<a href="mailto:emmccullough@premiertechsales.com">emccullough@premiertechsales.com</a>
 		</p>

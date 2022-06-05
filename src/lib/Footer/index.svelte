@@ -18,14 +18,14 @@
 				office:
 				<a
 					class="font-medium ml-2 text-light hover:text-secondary-50"
-					href="tel:123.123.1234">123.123.1234</a
+					href="tel:480.772.5779">480.772.5779</a
 				>
 			</p>
 			<p class="text-light font-normal mb-1">
 				fax:
 				<a
 					class="font-medium ml-2 text-light hover:text-secondary-50"
-					href="fax:321.321.4321">321.321.4321</a
+					href="fax:480.926.7679">480.926.7679</a
 				>
 			</p>
 		</div>
