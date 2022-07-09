@@ -41,8 +41,7 @@
 			IMC) and managed all of the Reps nation-wide until 1990. I was then recruited by Piezo
 			Technology to be their Director of Sales for the Western Region, where again I managed
 			Reps for an additional 4 years and successfully grew our business. Opened Youngworth &
-			Olenick AZ (covering AZ/NM) in 1994 to Jan 1st of 2016. I have now purchased the AZ/NM
-			territory from Y&O, while still maintaining the same list of Principals.
+			Olenick AZ (covering AZ/NM) in 1994. I purchased the AZ/NM territory from Y&O in 2016, while still maintaining the same list of Principals.
 		</p>
 	</div>
 </div>
