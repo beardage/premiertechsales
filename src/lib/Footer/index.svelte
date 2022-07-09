@@ -1,7 +1,7 @@
 <footer
 	class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 bg-primary-800 shadow-2xl rounded-t-md md:rounded-md"
 >
-	<div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm pt-8 pb-8">
+	<div class="grid grid-cols-2 md:grid-cols-4 gap-5 text-sm pt-8 pb-8">
 		<div class="uppercase leading-6">
 			<a class="text-light hover:text-secondary-50 font-medium block mb-1" href="/about/"
 				>About</a
@@ -21,13 +21,14 @@
 					href="tel:480.772.5779">480.772.5779</a
 				>
 			</p>
-			<p class="text-light font-normal mb-1">
-				fax:
-				<a
-					class="font-medium ml-2 text-light hover:text-secondary-50"
-					href="fax:480.926.7679">480.926.7679</a
-				>
-			</p>
+
+			<div class="flex text-light font-normal mb-1">
+				<p class="inline-block">address:</p>
+				<div class="ml-2">
+				3317 S Higley Road Suite 114 <br />
+				Gilbert, AZ 85297
+				</div>
+			</div>
 		</div>
 		<div />
 		<div class="uppercase leading-6">
