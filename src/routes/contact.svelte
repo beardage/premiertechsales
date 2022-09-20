@@ -24,7 +24,7 @@
 		<div class="flex mb-6">
 			<p class="inline-block">Address:</p>
 			<div class="ml-2">
-			3317 S Higley Road Suite 114 <br />
+			3317 S Higley Road Suite 114-306 <br />
 			Gilbert, AZ 85297
 			</div>
 		</div>
