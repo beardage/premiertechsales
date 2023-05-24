@@ -37,14 +37,6 @@
 		<figcaption>Integra RF Power Devices</figcaption>
 	</figure>
 	<figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
-		<a class="inline-block text-center" href="https://www.kcbsolutions.com/" target="_blank">
-			<picture>
-				<img src="/line-card/kcb-solutions.png" alt="crane logo" />
-			</picture>
-		</a>
-		<figcaption>KCB Solutions</figcaption>
-	</figure>
-	<figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
 		<a class="inline-block text-center" href="https://www.l3harris.com/" target="_blank">
 			<picture>
 				<img src="/line-card/l3harris.png" alt="l3harris logo" />
@@ -95,17 +87,5 @@
 			</picture>
 		</a>
 		<figcaption>Times Microwave Systems</figcaption>
-	</figure>
-	<figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
-		<a
-			class="inline-block text-center"
-			href="https://www.skyworksinc.com/en/products/technical-ceramics"
-			target="_blank"
-		>
-			<picture>
-				<img src="/line-card/trans-tech.png" alt="trans-tech logo" />
-			</picture>
-		</a>
-		<figcaption>Trans-Tech Ceramics</figcaption>
 	</figure>
 </div>
