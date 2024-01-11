@@ -59,7 +59,7 @@
 	<figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
 		<a class="inline-block text-center" href="https://www.mtronpti.com/" target="_blank">
 			<picture>
-				<img src="/line-card/mtronPTI.png" alt="mtronpti logo" />
+				<img src="/line-card/mtronPTI.jpg" alt="mtronpti logo" />
 			</picture>
 		</a>
 		<figcaption>MtronPTI</figcaption>
