@@ -74,16 +74,4 @@
     </a>
     <figcaption>Mtron</figcaption>
   </figure>
-  <figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
-    <a
-      class="inline-block text-center"
-      href="https://www.skyworksinc.com/"
-      target="_blank"
-    >
-      <picture>
-        <img src="/line-card/skyworks.png" alt="skyworks logo" />
-      </picture>
-    </a>
-    <figcaption>Skyworks</figcaption>
-  </figure>
 </div>

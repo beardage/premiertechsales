@@ -8,7 +8,7 @@
         href="/about/">About</a
       >
       <a
-        class="text-light hover:text-secondary-50 font-medium inline-block mb-1 cursor-pointer"
+        class="text-light hover:text-secondary-50 font-medium inline-block mb-1 cursor-pointener"
         href="/line-card/">Line Card</a
       >
       <a
@@ -22,7 +22,7 @@
         <div class="ml-2">
           <a
             class="font-medium text-light hover:text-secondary-50"
-            href="tel:480.772.5779">480.772.5779</a
+            href="tel:+16023706559">602.370.6559</a
           >
         </div>
 
