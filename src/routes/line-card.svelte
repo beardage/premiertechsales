@@ -24,18 +24,6 @@
     </a>
     <figcaption>Crane Aerospace & Electronics</figcaption>
   </figure>
-  <figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
-    <a
-      class="inline-block text-center"
-      href="https://www.l3harris.com/"
-      target="_blank"
-    >
-      <picture>
-        <img src="/line-card/l3harris.png" alt="l3harris logo" />
-      </picture>
-    </a>
-    <figcaption>L3Harris</figcaption>
-  </figure>
   <figure
     class="flex flex-col bg-light transition-shadow shadow hover:shadow-lg p-4"
   >
