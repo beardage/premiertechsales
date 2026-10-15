@@ -6,11 +6,17 @@
   />
 </svelte:head>
 
+<script>
+  // Partner list is being refreshed; flip to true to show it again.
+  const showLineCard = false;
+</script>
+
 <h1
   class="text-secondary-800 text-center text-2xl font-headline uppercase font-semibold tracking-[.2em] my-16"
 >
   Line Card
 </h1>
+{#if showLineCard}
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
   <figure class=" bg-light transition-shadow shadow hover:shadow-lg p-4">
     <a
@@ -63,3 +69,13 @@
     <figcaption>Mtron</figcaption>
   </figure>
 </div>
+{:else}
+<div class="max-w-xl mx-auto text-center mb-16">
+  <p class="text-lg">
+    We're updating our line card to reflect our current manufacturer
+    partners. Check back soon, or
+    <a class="underline" href="/contact">get in touch</a> and we'll help you
+    find the right solution.
+  </p>
+</div>
+{/if}
